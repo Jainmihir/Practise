@@ -1,0 +1,75 @@
+# ls 
+ls -> list all the directories
+ls -l -> long listed 
+ls -a -> hidden files
+ls -h -> human readable
+
+# pwd -> for print current path
+# ps -> runnig process
+# top  -> live runnig process
+# du -> Reports on the disk usage of files and directories
+# df -> Reports on how much disk space a file system is using
+# tree -> tree like file structure
+# cd -> change directory
+# clear -> clear screen
+# finger -> displays details about users on a Linux system
+# man -> man for manual
+
+
+# compgen -u -> list all the users
+# sudo useradd -> add new useradd
+# sudo userdel -> for deleting user 
+# sudo passwd -> for giving password
+# su -> switch user
+# getent group -> for list the all the groups
+# sudo groupadd -> for creating a group
+# sudo usermod -aG <GroupName> <Username>  -> for appending the user in group
+# sudo gpasswd -a <Name> <GroupName> -> for giving password to the group
+# groups -> verify all the groups
+
+
+# chown -> change owner permissions
+# chmod -> for giving permissions
+
+# ping -> for checking network connectivity
+# ifconfig -> for checking ip address
+# netstat -> display network connection information
+# curl -> CURL uploads and downloads resources and Primarily designed for data transfer with URL syntax. all the protocols
+# wget ->  Wget primarily downloads files and some set of protocols like http , https , ftp.
+
+
+
+# ssh username@ipaddress -> for remote machine connection
+
+# tar -> Combines multiple files into a single archive file (tape archive files)
+-> Create archives: tar -cvf archive.tar file1 file2
+-> Extract archives: tar -xvf archive.tar
+
+# grep ->  Searches text or files for patterns using regular expressions
+-> grep 'search_term' filename
+
+# gzip -> Compresses or decompresses files using the GNU zip algorithm
+-> Compress a file: gzip file.txt (creates file.txt.gz)
+-> Decompress a file: gunzip file.txt.gz
+
+# zip -> Compresses files into a ZIP archive.
+-> Create a ZIP archive: zip archive.zip file1 file2
+-> Extract files from a ZIP archive: unzip archive.zip
+
+
+# head -> for print top 10 lines
+# tail -> for print last 10 lines
+# echo -> for printing a message
+# echo > filename -> for creating a newfile and add a text
+# echo >> filename -> for creating a newfile and append a text 
+# history -> for printing previous commands
+# touch -> for creating a new file
+# vi -> virtual editor of linux
+
+
+
+
+
+
+
+

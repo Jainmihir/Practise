@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <h1> Hello </h1>
+    <button id="btn"> Button</button>
+    <div id="data"></div>
+    <ul class="list">
+        <li class="one">One</li>
+        <li class="one">two </li>
+        <li class="one">three</li>
+    </ul>
+    <h1 id="startandstop">Start should change the Background color every second</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+
+    <!-- <div >
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+            <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+        </ul>
+   </div> -->
+</body>
+
+<script>
+    const sayMihir = function(){
+        console.log("Mj");
+    }
+    const changeText = function(){
+        document.querySelector('#startandstop')
+        .style.color = "Red";
+    }
+
+    const colorChange = () => {
+        document.querySelector('#startandstop')
+        .style.color = "Red";
+    }
+
+    let intervalID;
+    const startBtn = document.querySelector('#start')
+    startBtn.addEventListener('click' , (e) => {
+        intervalID = setInterval(colorChange);
+    })
+    const stopBtn = document.querySelector('#stop')
+    stopBtn.addEventListener('click' , (e) => {
+        document.querySelector('#startandstop')
+        .style.color = "black";
+        clearInterval(intervalID);
+    })
+    // setTimeout(colorChange,1000);
+</script>
+<script src="Javascript.js"> </script>
+</html>
